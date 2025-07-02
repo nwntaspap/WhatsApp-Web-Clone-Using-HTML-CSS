@@ -91,6 +91,10 @@ body {
   color: #51585c;
   cursor: pointer;
 }
+.nav-icons .icon:hover {
+  color: #009688;
+  transition: 0.2s;
+}
 
 /* Search Chat */
 .search-chat {
@@ -243,7 +247,6 @@ body {
 }
 .chat-message .msg-box {
   position: relative;
-  /* right: 0; */
   text-align: right;
   max-width: 65%;
   padding: 0.8rem;
@@ -315,4 +318,20 @@ body {
 }
 .chatbot-input input:focus {
   outline: 1px solid #009688;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .leftSide {
+    flex: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .rightSide {
+    flex: 100%;
+  }
 }

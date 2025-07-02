@@ -25,17 +25,32 @@
 
           <ul class="nav-icons">
             <li class="icon">
-              <ion-icon name="scan-circle-outline"></ion-icon>
+              <ion-icon
+                name="scan-circle-outline"
+                aria-label="details"
+              ></ion-icon>
             </li>
-            <li class="icon"><ion-icon name="chatbox"></ion-icon></li>
-            <li class="icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+            <li class="icon">
+              <ion-icon name="chatbox" aria-label="Chat"></ion-icon>
+            </li>
+            <li class="icon">
+              <ion-icon name="ellipsis-vertical" aria-label="menu"></ion-icon>
+            </li>
           </ul>
         </div>
 
         <!-- Search -->
         <div class="search-chat">
-          <input type="text" placeholder="Search or Start a new chat" />
-          <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          <input
+            type="text"
+            placeholder="Search or Start a new chat"
+            aria-label="Search or Start a new chat"
+          />
+          <ion-icon
+            class="search-icon"
+            name="search-outline"
+            aria-label="Search"
+          ></ion-icon>
         </div>
 
         <!-- Chat List -->
@@ -263,9 +278,13 @@
             </div>
           </div>
 
-          <ul class="nav-icons">
-            <li class="icon"><ion-icon name="search-outline"></ion-icon></li>
-            <li class="icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+          <ul class="nav-icons" aria-label="Navigation Icons">
+            <li class="icon">
+              <ion-icon name="search-outline" aria-label="Search"></ion-icon>
+            </li>
+            <li class="icon">
+              <ion-icon name="ellipsis-vertical" aria-label="menu"></ion-icon>
+            </li>
           </ul>
         </div>
 
@@ -377,10 +396,26 @@
 
         <!-- Chat input -->
         <div class="chatbot-input">
-          <ion-icon class="icon" name="happy-outline"></ion-icon>
-          <ion-icon class="icon" name="attach-outline"></ion-icon>
-          <input type="text" placeholder="Type a message" />
-          <ion-icon class="icon" name="mic-outline"></ion-icon>
+          <ion-icon
+            class="icon"
+            name="happy-outline"
+            aria-label="Add emoji"
+          ></ion-icon>
+          <ion-icon
+            class="icon"
+            name="attach-outline"
+            aria-label="Add attachment"
+          ></ion-icon>
+          <input
+            type="text"
+            placeholder="Type a message"
+            aria-label="Type a message"
+          />
+          <ion-icon
+            class="icon"
+            name="mic-outline"
+            aria-label="Use microphone"
+          ></ion-icon>
         </div>
       </section>
 
